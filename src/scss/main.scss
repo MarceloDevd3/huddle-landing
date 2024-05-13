@@ -1,0 +1,64 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 1.2em;
+    margin-top: 2.5em;
+    
+
+
+    .Card-Item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 1.2em 0;
+        width: 400px;
+        height: 600px;
+        /* From https://css.glass */
+        background: rgba(255, 250, 250, 0.48);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px);
+        border: 1px solid rgba(255, 250, 250, 0.03);
+
+        .responsive-img {
+            img {
+                width: 300px;
+            }
+        }
+
+        .Card-info {
+            h2 {
+                font-size: 1.4em;
+                margin-bottom: 1em;
+            }
+
+            text-align: center;
+            padding: 2em;
+        }
+    }
+
+    .Mini-Card {
+        display: flex;
+        flex-direction: column;
+         justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 150px;
+        width: 445px;
+        height: 277px;
+        background: rgba(255, 250, 250);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px);
+        border: 1px solid rgba(255, 250, 250, 0.4);
+        h3 {
+            font-size: 1.2em;
+            margin: 1.3em 0;
+        }
+    }
+}

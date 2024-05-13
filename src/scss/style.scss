@@ -1,0 +1,49 @@
+@import "variaveis.scss";
+@import "nav.scss";
+@import "btn.scss";
+@import "header.scss";
+@import "main.scss";
+@import "footer.scss";
+@import "responsive.scss";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.white {
+  font-size: small;
+  color: $Grayish-Blue;
+}
+
+.pink {
+  color: #fff;
+}
+
+header , main {
+  color: $Very-Dark-Cyan;
+}
+
+footer {
+  color: $Very-Pale-Cyan;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: $font-size;
+  }
+
+img {
+  max-width: 100%;
+}
+

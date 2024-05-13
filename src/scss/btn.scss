@@ -1,0 +1,23 @@
+@import "variaveis.scss";
+
+.btn {
+    height: 30px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 400;
+}
+
+.white {
+    width: 95px;
+    padding: 5px;
+}
+
+.pink {
+
+    max-width: 400px;
+    width: 200px;
+   height: 50px;
+   background-color: $Pink;
+   font-weight: bold;
+}
+

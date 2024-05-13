@@ -1,0 +1,44 @@
+@import "variaveis.scss";
+
+header {
+    padding: 0;
+    background-image: url('../assets/img/bg-hero-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: $Very-Pale-Cyan;
+   
+    .header-Container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 1.1em;
+        padding-bottom: 3em;
+        .Header-info {
+
+              h1 {
+                margin: 3em auto 1em auto;
+                width: 300px;
+                font-size: 1.4em;
+              }
+
+              p {
+                font-size: 1.2em;
+                margin: 1.4em auto;
+                width: 400px;
+              }
+
+              .pink {
+                margin: 1em 0;
+             
+              }
+
+        }
+
+        .responsive-img {
+            img {
+                width: 375px;
+            }
+          }
+    }
+}
