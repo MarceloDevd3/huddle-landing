@@ -65,21 +65,30 @@ footer {
         justify-content: center;
         align-items: center;
         margin: 1em auto;
+
+        .icon:hover,  i:hover {
+          
+           border-color: #fc54c3;
+       
+               color: #fc54c3;
+           
+        }
+
+
+
         .icon {
             width: 40px;
             border-radius: 25px;
             padding: 7px;
             border: 1px solid #fff;
-            .face {
-                width: 10px;
-            }
+            
 
-            img {
+            i {
                position: relative;
                left: 5px;
                 max-width: 100%;
                 width: 15px;
-                filter: grayscale(1) brightness(1000%) !important;
+                
             }
           
             margin: 0 1.2em;

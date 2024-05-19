@@ -2,9 +2,10 @@ import React from "react";
 import icon1 from './img/icon-email.svg';
 import icon2 from './img/icon-location.svg';
 import icon3 from './img/icon-phone.svg';
-import face from './img/facebook-f.svg';
-import twitter from './img/twitter.svg';
-import instagram from './img/instagram.svg';
+
+//import face from './img/facebook-f.svg';
+//import twitter from './img/twitter.svg';
+//import instagram from './img/instagram.svg';
 
 
 
@@ -55,14 +56,13 @@ export default function Rodape(props) {
            <section className="radape-item4">
               <div className="row-icons">
                 <div className="icon">
-                  <img src={face} className="face"></img>
+                <i class="fa-brands fa-facebook-f"></i>
                 </div>
                 <div className="icon">
-                 <img src={instagram}></img>
+                <i class="fa-brands fa-instagram"></i>
                 </div>
                 <div className="icon">
-                <img src={twitter}></img>
-                
+                <i class="fa-brands fa-twitter"></i>
                 </div>
               </div>
               <p className="copyright">&copy; Copyright 2018 Huddle. All rights reserved.</p>
